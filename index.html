@@ -29036,81 +29036,97 @@
       style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag
       Manager</iframe></noscript>
   <div id="page">
-
-
-
-
-
-
-
     <button id="scrollToTopBtn">↑</button>
     <div class="inner">
       <div id="block-block-69" class="block block-block block-hero first last odd">
         <div class="hero-container overlay overlay--black">
-          
-            <a href="/">
-              <img src="a2.png" alt="" style="max-width: 1000px; margin-top: 10px; ">
-            </a>
+          <a href="/">
+            <img src="a2.png" alt="" style="max-width: 100%; height: auto; margin-top: 10px;">
+          </a>
+          <div class="navbar">
             <div class="nav-links">
               <a href="/services" class="nav-link" title="Home">Home</a>
               <a href="/home" class="nav-link" title="Portfolio">Portfolio</a>
               <a href="/services" class="nav-link" title="Services">Services</a>
               <a href="/about" class="nav-link" title="About">About</a>
               <a href="/contact" class="nav-link" title="Contact Us">Contact Us</a>
+              
+            </div>
             
           </div>
-
-
-          <style>
-            .navbar {
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              padding: 10px;
-            }
-
-            .nav-links {
-              display: flex;
-              justify-content: center;
-              /* Adjusted to center the nav-links */
-              align-items: center;
-            }
-
-            .nav-link {
-              margin: 0 15px;
-              text-decoration: none;
-              font-size: medium;
-              color: whitesmoke;
-              font-weight: bold;
-              transition: color 0.3s, transform 0.3s;
-            }
-
-            .nav-link:hover {
-              color: #800050;
-              transform: scale(1.2);
-              text-decoration: none;
-            }
-
-            img {
-              max-width: 200px;
-              max-height: 30px;
-
-            }
-          </style>
-
+              
           <div class="inner center-content">
             <div class="text-container text-center">
               <h1 class="hero__title">Satiaphic</h1>
               <p class="hero__description"> Social Media & Marketing Agency.</p>
               <div class="cta-container">
                 <a class="cta btn btn-lg"
-                  style=" border-radius: 5px; box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);background: #800050; color: whitesmoke; border-color: #A97DF0;"
-                  onmouseover="this.style.background='#A97DF0'" onmouseout="this.style.background='#800050'"
+                  style=" border-radius: 5px; box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);background: #800050; color: whitesmoke; border-color: #800050;"
+                  onmouseover="this.style.background='#800030'" onmouseout="this.style.background='#800050'"
                   href="/products" id="homepagecta-1" target="_blank">Learn More</a>
               </div>
             </div>
-          </div>
+       
         </div>
+      </div>
+      
+    </div>
+    
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+    
+      .nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .nav-link {
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: medium;
+        color: whitesmoke;
+        font-weight: bold;
+        transition: color 0.3s, transform 0.3s;
+      }
+    
+      .nav-link:hover {
+        color: #800050;
+        transform: scale(1.2);
+        text-decoration: none;
+      }
+    
+      img {
+        max-width: 100%;
+        height: auto;
+        max-height: 30px;
+      }
+    
+      /* Add additional styles for mobile responsiveness */
+      @media screen and (max-width: 768px) {
+        .navbar {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+    
+        .nav-links {
+          margin-top: 10px;
+          flex-direction: column;
+          align-items: center;
+        }
+    
+        .nav-link {
+          margin: 5px 0;
+        }
+      }
+    </style>
+
+      
         <style type="text/css">
           .new {
             max-width: 50%;
@@ -29235,7 +29251,8 @@
         </div>
 
         <div class="cta-container"><a id="homepagecta-2" class="cta btn btn-lg purple"
-            href="connect-content-and-seo">Learn More</a></div>
+          style=" border-radius: 5px;background: #800050; color: whitesmoke; border-color: #800050;"
+          onmouseover="this.style.background='#800030'" onmouseout="this.style.background='#800050'" href="connect-content-and-seo">Learn More</a></div>
       </div>
     </div>
     <div id="block-block-45" class="block block-block block-personas block--bg-barely-visible-gray even">
@@ -29377,8 +29394,9 @@
             </div>
           </div>
 
-          <div class="cta-container"><a class="cta btn btn-lg purple" href="/succeed-with-Satiaphic"
-              id="homepagecta-3">Learn More</a></div>
+          <div class="cta-container"><a  class="cta btn btn-lg purple" href="/succeed-with-Satiaphic"   style=" border-radius: 5px;background: #800050; color: whitesmoke; border-color: #800050;"
+            onmouseover="this.style.background='#800030'" onmouseout="this.style.background='#800050'"
+              id="homepagecta-3">Learn More   </a></div>
         </div>
       </div>
     </div>
@@ -29425,12 +29443,13 @@
 
                     background: #800050;
                     /* Purple */
-                    height: 29.2%;
+                    height: 29.3%;
 
                   }
 
                   /* Handle on hover */
                   ::-webkit-scrollbar-thumb:hover {
+
                     background: #8248b4;
                     /* Darker purple on hover */
                   }
