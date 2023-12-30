@@ -29026,9 +29026,7 @@
       }
     });
   </script>
-  <!--[if lt IE 9]>
-    <script src="/sites/all/themes/contrib/zen/js/html5-respond.js"></script>
-    <![endif]-->
+
 </head>
 
 <body class="html front not-logged-in no-sidebars page-node page-node- page-node-3 node-type--page-home i18n-en">
@@ -29037,6 +29035,7 @@
       Manager</iframe></noscript>
   <div id="page">
     <button id="scrollToTopBtn">↑</button>
+
     <div class="inner">
       <div id="block-block-69" class="block block-block block-hero first last odd">
         <div class="hero-container overlay overlay--black">
@@ -29073,57 +29072,58 @@
     </div>
     
     <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-link {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: medium;
+      color: whitesmoke;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #800050;
+      transform: scale(1.2);
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      max-height: 30px;
+    }
+
+    /* Add additional styles for mobile responsiveness */
+    @media screen and (max-width: 768px) {
       .navbar {
-        display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
-        padding: 10px;
       }
-    
+
       .nav-links {
-        display: flex;
+        margin-top: 10px;
+        flex-direction: row; /* Display links side by side */
         justify-content: center;
-        align-items: center;
+        width: 100%;
       }
-    
+
       .nav-link {
-        margin: 0 15px;
-        text-decoration: none;
-        font-size: medium;
-        color: whitesmoke;
-        font-weight: bold;
-        transition: color 0.3s, transform 0.3s;
+        margin: 5px; /* Adjust spacing between links */
       }
-    
-      .nav-link:hover {
-        color: #800050;
-        transform: scale(1.2);
-        text-decoration: none;
-      }
-    
-      img {
-        max-width: 100%;
-        height: auto;
-        max-height: 30px;
-      }
-    
-      /* Add additional styles for mobile responsiveness */
-      @media screen and (max-width: 768px) {
-        .navbar {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-    
-        .nav-links {
-          margin-top: 10px;
-          flex-direction: column;
-          align-items: center;
-        }
-    
-        .nav-link {
-          margin: 5px 0;
-        }
-      }
+    }
     </style>
 
       
